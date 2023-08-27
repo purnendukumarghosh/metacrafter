@@ -15,7 +15,7 @@ console.log("THE GREATEST WARRIORS OF ALL TIME: \n");
 
 // create a variable to hold your NFT's
 const NFT = [];
-
+//The mintNFT function takes parameters representing the metadata of the NFT and creates an NFT object using the provided values. 
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
@@ -32,7 +32,7 @@ function mintNFT (_name, _age, _weapon, _strength)
     console.log("Minted: " + _name);
 
 }
-
+//The listNFTs function iterates through the NFT array and prints the metadata of each NFT using console.log().
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs () 
